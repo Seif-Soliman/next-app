@@ -19,7 +19,7 @@ const WelcomeTemplate = ({ name }: Props) => {
       <Preview>Welcome Aboard!</Preview>
       <Tailwind>
         <Body className="bg-white">
-          <Container>
+          <Container key="1">
             <Text className="font-bold text-3xl">Hello {name}</Text>
             <Text>Behold my NextJS APP</Text>
             <Link href="http://localhost:3000/">http://localhost:3000/</Link>
